@@ -15,10 +15,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="includes\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Update="includes\amd64\wintun.dll">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
