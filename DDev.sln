@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDev.WinTun", "DDev.WinTun\DDev.WinTun.csproj", "{F57C9C2D-38E3-42FE-91B9-0B48D7AF395A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57C9C2D-38E3-42FE-91B9-0B48D7AF395A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57C9C2D-38E3-42FE-91B9-0B48D7AF395A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57C9C2D-38E3-42FE-91B9-0B48D7AF395A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57C9C2D-38E3-42FE-91B9-0B48D7AF395A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

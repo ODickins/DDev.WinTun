@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>DDev.WinTun C# Wrapper</Title>
+        <Authors>Oliver Dickins</Authors>
+        <Description>Provides IWinTunService which can create WinTun adapters with the use of C#.</Description>
+        <PackageProjectUrl>https://github.com/ODickins/DDev.WinTun</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ODickins/DDev.WinTun/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ODickins/DDev.WinTun</RepositoryUrl>
+        <PackageTags>wintun.dll, wintun, tunnel adapter, network adapter</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="includes\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="includes\amd64\wintun.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="includes\arm\wintun.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="includes\arm64\wintun.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="includes\x86\wintun.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-rc.2.25502.107" />
+    </ItemGroup>
+
+</Project>
